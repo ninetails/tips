@@ -18,3 +18,7 @@ done
 ```
 
 [Source](https://www.imagemagick.org/discourse-server/viewtopic.php?t=29411#p131628)
+
+#### Gravity values
+
+* **north**: Top-center
