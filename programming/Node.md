@@ -12,6 +12,14 @@ console.reset = function () {
 
 [Source](https://gist.github.com/KenanSulayman/4990953)
 
+**Parsing error on eslint alternative**
+
+```js
+console.reset = function () {
+  return process.stdout.write(`${String.fromCharCode(parseInt('33', 8))}c`);
+}
+```
+
 ### Without reset
 
 ```js
